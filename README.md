@@ -1,5 +1,3 @@
-# NCU_course_feedback
-
 ## Instruction
 1. install selenium
 <br>
