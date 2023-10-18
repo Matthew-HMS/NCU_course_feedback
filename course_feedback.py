@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 options = webdriver.ChromeOptions()
-options.add_argument("user-data-dir=C:\\Users\\Matt\\AppData\\Local\\Google\\Chrome\\User Data")
+options.add_argument("user-data-dir=C:\\Users\\{Your name}\\AppData\\Local\\Google\\Chrome\\User Data")
 driver = webdriver.Chrome(options=options)
 driver.get("https://cis.ncu.edu.tw/iNCU/academic/course/courseEvaluate?groupName=wpsNone&loginName=07B707BE05F90152064B011F0240082D064B07BE0721062E&sn=454080071&systemId=57&verifyName=MTEwNDAzNTI1")
 time.sleep(3)
