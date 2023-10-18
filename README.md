@@ -1,4 +1,5 @@
 ## Instruction
+⚠️ Note : You should login your portal first!!!
 1. install selenium
 ```shell
 pip install selenium
