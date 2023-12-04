@@ -1,5 +1,5 @@
 ## Instruction
-⚠️ Note : You should login your portal first!!!
+⚠️ Note : You should login your portal first!! And close the Chrome window before you run the code.
 1. install selenium
 ```shell
 pip install selenium
