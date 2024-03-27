@@ -21,13 +21,19 @@ for i in range(len(forms)):
     forms[i].click()
     time.sleep(1)
 
-    radios = driver.find_elements(By.XPATH, "//input[@type='radio' and @value='A']")
-    for radio in radios:
-        if not radio.is_selected():
-            radio.click()
+    try:
+        radios = driver.find_elements(By.XPATH, "//input[@type='radio' and @value='A']")
+        for radio in radios:
+            if not radio.is_selected():
+                radio.click()
+    except:
+        pass
 
-    textarea = driver.find_element(By.XPATH, "//*[@class = 'form-control']")
-    textarea.send_keys("謝謝老師！")
+    try:
+        textarea = driver.find_element(By.XPATH, "//*[@class = 'form-control']")
+        textarea.send_keys("謝謝老師！")
+    except:
+        pass
     time.sleep(1)
     submit = driver.find_element(By.XPATH, "//*[@class = 'btn btn-light btn-default']")
     submit.click()
